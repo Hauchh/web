@@ -31,3 +31,48 @@ button:hover {
 a {
     text-decoration: none;
 }
+
+.seccion1 {
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    color: rgb(0, 0, 0); /* Color de texto para mejor legibilidad */
+    padding: 20px;
+    background-image: url('imagen/fondo-gris.jpg'); /* Ruta de la primera imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+}
+
+.seccion2 {
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    color: white; /* Color de texto para mejor legibilidad */
+    padding: 20px;
+    background-image: url('imagen/fondo-negro.jpg'); /* Ruta de la segunda imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+}
+
+.seccion3 {
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    color: rgb(0, 0, 0); /* Color de texto para mejor legibilidad */
+    padding: 20px;
+    background-image: url('imagen/fondo-gris.jpg'); /* Ruta de la tercera imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ap {
+    font-size: 60px; /* Cambia el tamaño del texto para la clase 'ap' a 28 pixels */
+}
+
+.enl
+{
+    font-size: 30px; /* Cambia el tamaño del texto para la clase 'ap' a 28 pixels */
+}
+
+.mcpe
+{
+    text-align: left;
+    font-size: 20px; 
+}
