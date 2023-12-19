@@ -1,0 +1,33 @@
+/* Estilo para el fondo */
+body {
+    background-color: #b14242;
+    /* Cambia el color de fondo de la página a un tono gris claro (#f2f2f2) */
+    color: #333;
+    /* Cambia el color del texto a un tono de gris oscuro (#333) */
+    font-family: Arial, sans-serif;
+    /* Establece la fuente del texto */
+}
+
+button {
+    background-color: #f2f2f2;
+    /* Cambia el color de fondo del botón a azul */
+    color: white;
+    /* Cambia el color del texto a blanco */
+    padding: 10px 20px;
+    /* Agrega espacio interno al botón */
+    border: none;
+    /* Elimina el borde del botón */
+    border-radius: 5px;
+    /* Agrega esquinas redondeadas al botón */
+    transition: background-color 0.3s;
+    /* Transición suave del color de fondo */
+}
+
+button:hover {
+    background-color: rgb(151, 68, 172);
+    /* Cambia el color de fondo al pasar el mouse */
+}
+
+a {
+    text-decoration: none;
+}
