@@ -1,5 +1,11 @@
 /* Estilo para el fondo */
-body {
+body, html {
+
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding: 0;
+    /* Elimina el relleno predeterminado */
+
     background-color: #b14242;
     /* Cambia el color de fondo de la página a un tono gris claro (#f2f2f2) */
     color: #333;
@@ -33,27 +39,39 @@ a {
 }
 
 .seccion1 {
-    height: 300px; /* Ajusta la altura según tus necesidades */
-    color: rgb(0, 0, 0); /* Color de texto para mejor legibilidad */
+    height: 300px;
+    /* Ajusta la altura según tus necesidades */
+    color: rgb(0, 0, 0);
+    /* Color de texto para mejor legibilidad */
     padding: 20px;
-    background-image: url('imagen/fondo-gris.jpg'); /* Ruta de la primera imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+    background-image: url('imagen/fondo-gris.jpg');
+    /* Ruta de la primera imagen */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir toda la sección */
 }
 
 .seccion2 {
-    height: 300px; /* Ajusta la altura según tus necesidades */
-    color: white; /* Color de texto para mejor legibilidad */
+    height: 300px;
+    /* Ajusta la altura según tus necesidades */
+    color: white;
+    /* Color de texto para mejor legibilidad */
     padding: 20px;
-    background-image: url('imagen/fondo-negro.jpg'); /* Ruta de la segunda imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+    background-image: url('imagen/fondo-negro.jpg');
+    /* Ruta de la segunda imagen */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir toda la sección */
 }
 
 .seccion3 {
-    height: 300px; /* Ajusta la altura según tus necesidades */
-    color: rgb(0, 0, 0); /* Color de texto para mejor legibilidad */
+    height: 300px;
+    /* Ajusta la altura según tus necesidades */
+    color: rgb(0, 0, 0);
+    /* Color de texto para mejor legibilidad */
     padding: 20px;
-    background-image: url('imagen/fondo-gris.jpg'); /* Ruta de la tercera imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+    background-image: url('imagen/fondo-gris.jpg');
+    /* Ruta de la tercera imagen */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir toda la sección */
 }
 
 h2 {
@@ -63,16 +81,88 @@ h2 {
 }
 
 .ap {
-    font-size: 60px; /* Cambia el tamaño del texto para la clase 'ap' a 28 pixels */
+    font-size: 30px;
+    /* Cambia el tamaño del texto para la clase 'ap' a 28 pixels */
 }
 
-.enl
-{
-    font-size: 30px; /* Cambia el tamaño del texto para la clase 'ap' a 28 pixels */
+.enl {
+    font-size: 30px;
+    /* Cambia el tamaño del texto para la clase 'ap' a 28 pixels */
 }
 
-.mcpe
-{
+.mcpe {
     text-align: left;
-    font-size: 20px; 
+    font-size: 20px;
+}
+
+.apk1 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.encabezado h1 {
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para los encabezados */
+.encabezado {
+    background-color: #ff0000;
+    /* Color de fondo para el encabezado */
+    padding: 20px;
+    /* Espacio alrededor del encabezado */
+    color: #fff;
+    /* Color del texto */
+    text-align: center;
+    /* Alineación del texto al centro */
+}
+
+.navegacion {
+    background-color: #000;
+    /* Color de fondo para la navegación */
+    padding: 20px;
+    /* Espacio alrededor de la navegación */
+    color: #fff;
+    /* Color del texto */
+    text-align: center;
+    /* Alineación del texto al centro */
+}
+
+/* Estilos para el menú de navegación */
+.navegacion nav ul {
+    list-style: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el relleno predeterminado */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+}
+
+.navegacion nav ul li {
+    display: inline-block;
+    /* Coloca los elementos en línea */
+    margin-right: 10px;
+    /* Añade un margen entre elementos */
+}
+
+.navegacion nav ul li a {
+    text-decoration: none;
+    /* Elimina el subrayado predeterminado de los enlaces */
+    color: #fff;
+    /* Color del texto */
+    padding: 5px 10px;
+    /* Espaciado interno */
+}
+
+.redes
+{
+    margin-left: 10px;
+}
+
+.apk1
+{
+    margin-left: 20px;
 }
